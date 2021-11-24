@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    block style
+     style
+       include ../static/stylehome.css
+    block scripts
+      include base.pug
+  body
+    block content
+      section#intro 
+          h1 ORDER FOOD ONLINE !! 
+      .dropdown
+        button.dropbtn
+         | Select city
+
+        .dropdown-content
+          a(href="#") Mumbai
+          a(href="#") Delhi
+          a(href="#") Kolkata
+          a(href="#") Madhya Pradesh
+          a(href="#") Kerala
+          a(href="#") Rajasthan
+      .dropdown2
+        button.dropbtn2 Search for restaurants and cuisines...
+        button.btn FIND FOOD NOW !!
+
+    block foot
+      #footer  
+        div.content
+          p Copyright 2021  HungerBites Food Ordering Website |  All Rights Reserved

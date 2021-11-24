@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    style
+       include ../static/stylelogin.css
+    block scripts
+      include base.pug
+  body
+    block content
+      .container-box 
+        h1 Login
+        form(action= "/login", method= "post", class= "myForm")
+          label.mylabel(for='inputEmail3') User Name:-
+          <input type="email" class= "myInput" name="email" placeholder="Enter your email id">
+           label.mylabel(for='inputpassword') Password:-
+          <input type="phone" class= "myInput" name="phone" placeholder="Enter your Password">
+          
+          .button
+            Button.btn1(type='submit') Submit 
+            Button.btn2(type='registration') 
+              a(href="/registration") Register Yourself
+  
+    block foot
+      #footer  
+        div.content
+          p Copyright 2021  HungerBites Food Ordering Website |  All Rights Reserved

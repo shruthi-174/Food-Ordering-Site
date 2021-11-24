@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title HungerBites Website
+    block scripts
+    style 
+        include ../static/style.css
+  body
+    block content
+      #navbar 
+        .container 
+         .box   
+             img(src="/static/images/logo.png")
+        ul 
+          li #[a(href="/")  Home]
+          li #[a(href="/new")  New User]
+          li #[a(href="/offer")  Offers]
+          li #[a(href="/contact")  Contact Us]
+          li #[a(href="/login")  Login/Signup]
+        
+    

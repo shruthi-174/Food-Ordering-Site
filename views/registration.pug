@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    block style
+      style 
+        include ../static/stylecontact.css
+    block scripts
+      include base.pug
+  body
+    block content  
+      .container-box 
+        h1 REGISTRATION
+        form(action= "/registration", method= "post", class= "myForm")
+          <input type="text"class= "myInput" name="name" placeholder="Enter your Name">
+          <input type="text" class= "myInput" name="gender" placeholder="Enter your Gender">
+          <input type="text" class= "myInput" name="age" placeholder="Enter your Age">
+          <input type="email" class= "myInput" name="username" placeholder="Enter your Email -Id">
+          <input type="text" class= "myInput" name="password" placeholder="Create your Passoword">
+          Button(class="btn")
+            | Submit
+         
+    block foot
+      #footer  
+        div.content
+          p Copyright 2021  HungerBites Food Ordering Website |  All Rights Reserved

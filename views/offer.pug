@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    block style
+     style
+       include ../static/styleoffer.css
+    block scripts
+      include base.pug
+  body
+    block content
+      section#offersection 
+        .container  
+          .pictures
+            .pic_1
+              img.pic-item(src="/static/images/s.1.jpg" alt="Image 1")
+            
+            .pic_2
+              img.pic-item(src="/static/images/s.2.jpg" alt="Image 2")
+
+            .pic_3
+              img.pic-item(src="/static/images/s.3.jpg" alt="Image 3")
+
+            .pic_4
+              img.pic-item(src="/static/images/s.4.png" alt="Image 4")
+
+            .pic_5
+              img.pic-item(src="/static/images/s.5.jpg" alt="Image 5")
+
+            .pic_6
+              img.pic-item(src="/static/images/s.6.jpg" alt="Image 6")
+
+    block foot
+      #footer  
+        div.content
+          p Copyright 2021  HungerBites Food Ordering Website |  All Rights Reserved
+

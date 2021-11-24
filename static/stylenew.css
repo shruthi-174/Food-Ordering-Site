@@ -1,0 +1,61 @@
+#workSection{
+    height: 326px;; 
+    width: 83%;
+    margin: 48px 157px;
+    
+}
+#workSection::before {
+    content: "";
+    position: absolute;
+    background-color: #babad3;
+    height: 642px;
+    top: 50px;
+    left: 7px;
+    width: 99%;
+    z-index: -2;
+}
+#workSection h2{
+    font-size: 30px;
+    font-family: 'Yeon Sung';
+    text-align: center;
+    padding-top: 45px;
+}
+#workSection div.small{
+        text-align: center;
+        margin: 34px 7px;
+        margin-top: -18px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    margin: 23px 14px;
+    height: 259px;
+}
+.card-box{
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 10px 74px;
+}
+.card-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.card-content{
+    text-align: center;
+    margin: 85px 21px;
+}
+#footer{
+    background: black;
+    color: white;
+    margin-top: 239px;
+    padding: 1px 19px;
+}
+.content {
+    margin-left: 432px;
+}

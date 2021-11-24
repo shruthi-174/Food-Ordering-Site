@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    block style
+      style 
+        include ../static/stylenew.css
+    block scripts
+      include base.pug
+  body
+    block content
+      section#workSection
+        h2 How Hungerbite Works 
+        div.small Ordering food online has never been this easy
+        div.card
+            div.card-box
+                div.card-img
+                    img(src="/static/images/del.jpg")
+                div.card-content
+                    p Explore restaurants that 
+                     br
+                     | deliver your doorstep
+
+        div.card
+            div.card-box
+                div.card-img
+                    img(src="/static/images/menu1.jpg")
+                div.card-content
+                    p  Browse menu and build 
+                     br
+                     | your order in seconds
+
+        div.card
+            div.card-box
+                div.card-img
+                    img(src="/static/images/track.jpg")
+                div.card-content
+                    p Follow the status of your 
+                     br
+                     | order with real-time alerts
+    block foot
+      #footer  
+        div.content
+          p Copyright 2021  HungerBites Food Ordering Website |  All Rights Reserved
